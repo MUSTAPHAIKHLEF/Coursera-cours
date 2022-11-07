@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative and Absolute Element Positioning</title>
+    <style>
+        *{
+            box-sizing:border-box;
+            margin:0;
+            padding:0;
+        }
+        div#container{
+            background-color:rgb(159, 112, 51);
+        }
+        p{
+            width: 50px;
+            height:50px;
+            border:1px solid black;
+            margin-bottom: 15px;
+        }
+        #p1{
+            background-color:rgb(6, 159, 159);
+            position: relative;
+            left: 100px;
+            top: 30px;
+        }
+        #p2{
+            background-color:rgb(92, 223, 127); 
+        }
+        #p3{
+            background-color:rgb(233, 190, 80); 
+        }
+        #p4{
+            background-color:rgb(165, 88, 196); 
+        }
+    </style>
+</head>
+<body>
+    <center style="color:rgb(121, 9, 225)"><h1>Relative and Absolute Element Positioning</h1></center>
+    <div id="container">
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <p id="p3"></p>
+        <p id="p4"></p>
+    </div>
+    
+</body>
+</html>

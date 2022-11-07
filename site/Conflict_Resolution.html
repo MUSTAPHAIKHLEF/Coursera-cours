@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1{
+            color:red;
+        }
+        h2{
+            color:peru;
+        }        
+        body{
+            color:red;
+            text-align:center;
+            font-family:Helvetica;
+        }
+        /* execute that only because !important */
+        p{
+            color:blue !important;
+        }
+        /* Doesn't execute */
+        header.navigation P{
+            color:rgb(208, 113, 162);
+        }
+        /* Doesn't execute */
+        p.blurb{
+            color:red;
+        }
+    </style>
+    <title>Conflict Resolution</title>
+</head>
+<body>
+    <h1>Conflict Resolution Part 1</h1>
+    <h2>Subheading 1</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsum quo rerum reprehenderit unde aliquid consequuntur, 
+        iste officia reiciendis odio.Aliquid amet ex, quis voluptates obcaecati quos veniam harum nisi!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsum quo rerum reprehenderit unde aliquid consequuntur, 
+        iste officia reiciendis odio.Aliquid amet ex, quis voluptates obcaecati quos veniam harum nisi!</p>
+    <h2 style="color:green;">Subheading 2</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsum quo rerum reprehenderit unde aliquid consequuntur, 
+        iste officia reiciendis odio.Aliquid amet ex, quis voluptates obcaecati quos veniam harum nisi!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsum quo rerum reprehenderit unde aliquid consequuntur, 
+        iste officia reiciendis odio.Aliquid amet ex, quis voluptates obcaecati quos veniam harum nisi!</p>
+    
+        <h1>Conflict Resolution Part 2</h1>
+       <header class="navigation">
+        <p class="blurb">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsum quo rerum reprehenderit unde aliquid consequuntur, 
+            iste officia reiciendis odio.Aliquid amet ex, quis voluptates obcaecati quos veniam harum nisi!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsum quo rerum reprehenderit unde aliquid consequuntur, 
+            iste officia reiciendis odio.Aliquid amet ex, quis voluptates obcaecati quos veniam harum nisi!</p>
+       </header>
+</body>
+</html>
+

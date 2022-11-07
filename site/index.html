@@ -4,10 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Combining Selectors</title>
+    <style>
+        p.big{
+            background-color:aqua;
+        }
+        div.big{
+            background-color:brown;
+        }
+        /* article p == article>p */
+        article p{
+            background-color:rgb(119, 206, 95);
+        }
+        /* article>p{
+            background-color:rgb(230, 112, 27);
+        } */
+
+    </style>
 </head>
 <body>
-    <h1>Hello Coursera with my first page </h1>
-    
+     <p class="big">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsum quo rerum reprehenderit unde aliquid consequuntur, 
+        iste officia reiciendis odio.Aliquid amet ex, quis voluptates obcaecati quos veniam harum nisi!
+     </p>
+     <div class="big">
+        Mustapha ipsum dolor sit amet consectetur adipisicing elit. Libero ipsum quo rerum reprehenderit unde aliquid consequuntur, 
+        iste officia reiciendis odio.Aliquid amet ex, quis voluptates obcaecati quos veniam harum nisi!
+     </div>
+     <article>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsum quo rerum reprehenderit unde aliquid consequuntur, 
+            iste officia reiciendis odio.Aliquid amet ex, quis voluptates obcaecati quos veniam harum nisi!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsum quo rerum reprehenderit unde aliquid consequuntur, 
+            iste officia reiciendis odio.Aliquid amet ex, quis voluptates obcaecati quos veniam harum nisi!
+         </p>
+     </article>
 </body>
 </html>
+
